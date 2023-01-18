@@ -1,0 +1,28 @@
+.brPreviewer__label {
+  font-family: var(--ff-3);
+  font-size: var(--fs-b3);
+  line-height: 2rem;
+}
+
+.brPreviewer__labelText {
+  color: var(--neutral-50);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.brPreviewer__inputWrapper {
+  background-color: var(--neutral-50);
+  border-radius: 6px;
+  border: 1px solid var(--neutral-400);
+  max-width: 10rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.brPreviewer__input {
+  background-color: var(--basic-transparent);
+  border: none;
+  caret-color: var(--primary-500);
+  color: var(--basic-dark);
+  outline: none;
+  width: 100%;
+}

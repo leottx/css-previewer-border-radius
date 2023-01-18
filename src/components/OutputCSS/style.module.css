@@ -1,0 +1,30 @@
+.brPreviewer__output {
+  align-items: center;
+  background-color: var(--neutral-500);
+  border-radius: 6px;
+  color: var(--neutral-50);
+  cursor: pointer;
+  display: flex;
+  font-family: var(--ff-2);
+  font-size: var(--fs-b2);
+  justify-content: space-between;
+  line-height: 2.4rem;
+  margin-bottom: 2.8rem;
+  padding: 1.4rem 1.6rem;
+  position: relative;
+  transition: transform 0.15s;
+}
+
+.brPreviewer__output:hover {
+  outline-offset: 2px;
+  outline: 2px dashed var(--neutral-500);
+  transform: scale(1.05);
+}
+
+.brPreviewer__output[disabled] {
+  pointer-events: none;
+}
+
+.brPreviewer__outputInner {
+  display: flex;
+}

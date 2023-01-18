@@ -1,0 +1,37 @@
+/* reset */
+*, 
+*::after, 
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* variables */
+:root {
+  /* colors */
+  --primary-50: #FFE8D9;
+  --primary-300: #FF9466;
+  --primary-500: #F35627;
+  --neutral-50: #F7F7F7;
+  --neutral-400: #9E9E9E;
+  --neutral-500: #626262;
+  --basic-dark: #222222;
+  --basic-transparent: 'transparent';
+
+  /* font size */
+  --fs-d1: 7.2rem;
+  --fs-h3: 4.8rem;
+  --fs-b2: 1.6rem;
+  --fs-b3: 1.4rem;
+  --fs-b4: 1.2rem;
+
+  /* font family */
+  --ff-1: 'Ubuntu', sans-serif;
+  --ff-2: 'Ubuntu Mono', monospace;
+  --ff-3: 'Open Sans', sans-serif;
+}
