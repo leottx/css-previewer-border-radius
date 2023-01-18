@@ -2,7 +2,7 @@ import { octocatCorner } from "./style.module.css";
 
 export const OctocatCorner = () => {
   return (
-    <a href="https://github.com/leottx/css-previewer-border-radius" className={octocatCorner}>
+    <a href="https://github.com/leottx/css-previewer-border-radius" className={octocatCorner} target="_blank">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="80"
